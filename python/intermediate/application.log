@@ -1,0 +1,265 @@
+[2026-11-11 08:15:01.234] [INFO]  [main] [ctx_id: 9a7b2c] Starting payment processing service initialization...
+[2026-11-11 08:15:02.891] [INFO]  [main] [ctx_id: 9a7b2c] Successfully loaded configuration from settings.json.
+[2026-11-11 08:15:03.412] [WARN]  [db_pool] [ctx_id: ------] Database connection pool is nearing 85% capacity. 42/50 active connections.
+[2026-11-11 08:15:05.002] [INFO]  [http_server] [ctx_id: ------] HTTP Server listening on port 8080.
+[2026-11-11 08:15:10.155] [INFO]  [cache_manager] [ctx_id: ------] Redis cache cluster connection established successfully. 2 nodes active.
+[2026-11-11 08:15:16.941] [INFO]  [inventory] [ctx_id: 534ae] Item SKU-1024 reserved in inventory.
+[2026-11-11 08:15:16.941] [INFO]  [checkout] [ctx_id: 534ae] Order checkout initiated for Cart ID: 96748. Total: $143.00.
+[2026-11-11 08:15:16.941] [INFO]  [checkout] [ctx_id: 534ae] Order #45431 processed successfully. Payment status: APPROVED.
+[2026-11-11 08:15:18.920] [INFO]  [cache_manager] [ctx_id: ------] Routine health check passed. Status: OK.
+[2026-11-11 08:15:20.905] [INFO]  [auth] [ctx_id: c346b] User 'charlie@example.com' login attempt initiated from IP 192.168.1.84.
+[2026-11-11 08:15:20.905] [INFO]  [auth] [ctx_id: c346b] User 'charlie@example.com' successfully authenticated.
+[2026-11-11 08:15:23.551] [INFO]  [inventory] [ctx_id: 81c9f] Item SKU-1024 reserved in inventory.
+[2026-11-11 08:15:23.551] [INFO]  [checkout] [ctx_id: 81c9f] Order checkout initiated for Cart ID: 98567. Total: $228.00.
+[2026-11-11 08:15:23.551] [INFO]  [checkout] [ctx_id: 81c9f] Order #44983 processed successfully. Payment status: APPROVED.
+[2026-11-11 08:15:23.907] [INFO]  [http_server] [ctx_id: ------] Routine health check passed. Status: OK.
+[2026-11-11 08:15:25.831] [WARN]  [db_pool] [ctx_id: ------] Active connections fluctuate above normal range (46/50).
+[2026-11-11 08:15:26.733] [INFO]  [cron_scheduler] [ctx_id: ------] Routine health check passed. Status: OK.
+[2026-11-11 08:15:27.539] [INFO]  [cron_scheduler] [ctx_id: ------] Routine health check passed. Status: OK.
+[2026-11-11 08:15:28.434] [INFO]  [cron_scheduler] [ctx_id: ------] Routine health check passed. Status: OK.
+[2026-11-11 08:15:30.491] [INFO]  [auth] [ctx_id: d4524] User 'guest_554' login attempt initiated from IP 192.168.1.20.
+[2026-11-11 08:15:30.491] [INFO]  [auth] [ctx_id: d4524] User 'guest_554' successfully authenticated.
+[2026-11-11 08:15:31.209] [INFO]  [auth] [ctx_id: 94648] User 'johndoe@example.com' login attempt initiated from IP 192.168.1.102.
+[2026-11-11 08:15:31.209] [INFO]  [auth] [ctx_id: 94648] User 'johndoe@example.com' successfully authenticated.
+[2026-11-11 08:15:31.892] [INFO]  [auth] [ctx_id: 4d2c4] User 'alice@example.com' login attempt initiated from IP 192.168.1.130.
+[2026-11-11 08:15:31.892] [INFO]  [auth] [ctx_id: 4d2c4] User 'alice@example.com' successfully authenticated.
+[2026-11-11 08:15:34.327] [INFO]  [cache_manager] [ctx_id: ------] Routine health check passed. Status: OK.
+[2026-11-11 08:15:36.278] [INFO]  [cron_scheduler] [ctx_id: ------] Routine health check passed. Status: OK.
+[2026-11-11 08:15:39.098] [INFO]  [http_server] [ctx_id: ------] Routine health check passed. Status: OK.
+[2026-11-11 08:15:41.121] [INFO]  [cache_manager] [ctx_id: ------] Routine health check passed. Status: OK.
+[2026-11-11 08:15:41.698] [INFO]  [auth] [ctx_id: 6a434] User 'charlie@example.com' login attempt initiated from IP 192.168.1.3.
+[2026-11-11 08:15:41.698] [INFO]  [auth] [ctx_id: 6a434] User 'charlie@example.com' successfully authenticated.
+[2026-11-11 08:15:43.392] [WARN]  [payment_gateway] [ctx_id: 298cb] Response latency from external provider 'Stripe' exceeded threshold (Time taken: 2971ms, Threshold: 1500ms).
+[2026-11-11 08:15:44.562] [INFO]  [auth] [ctx_id: 85096] User 'guest_554' login attempt initiated from IP 192.168.1.235.
+[2026-11-11 08:15:44.562] [INFO]  [auth] [ctx_id: 85096] User 'guest_554' successfully authenticated.
+[2026-11-11 08:15:45.402] [INFO]  [auth] [ctx_id: a4df6] User 'bob@example.com' login attempt initiated from IP 192.168.1.188.
+[2026-11-11 08:15:45.402] [INFO]  [auth] [ctx_id: a4df6] User 'bob@example.com' successfully authenticated.
+[2026-11-11 08:15:47.399] [INFO]  [inventory] [ctx_id: d4e98] Item SKU-3091 reserved in inventory.
+[2026-11-11 08:15:47.399] [INFO]  [checkout] [ctx_id: d4e98] Order checkout initiated for Cart ID: 94851. Total: $466.00.
+[2026-11-11 08:15:47.399] [INFO]  [checkout] [ctx_id: d4e98] Order #45477 processed successfully. Payment status: APPROVED.
+[2026-11-11 08:15:49.946] [INFO]  [inventory] [ctx_id: ca3b8] Item SKU-8849 reserved in inventory.
+[2026-11-11 08:15:49.946] [INFO]  [checkout] [ctx_id: ca3b8] Order checkout initiated for Cart ID: 93051. Total: $91.00.
+[2026-11-11 08:15:49.946] [INFO]  [checkout] [ctx_id: ca3b8] Order #47639 processed successfully. Payment status: APPROVED.
+[2026-11-11 08:15:51.634] [WARN]  [db_pool] [ctx_id: ------] Active connections fluctuate above normal range (36/50).
+[2026-11-11 08:15:53.862] [INFO]  [cache_manager] [ctx_id: ------] Routine health check passed. Status: OK.
+[2026-11-11 08:15:55.223] [INFO]  [inventory] [ctx_id: 24ab8] Item SKU-3091 reserved in inventory.
+[2026-11-11 08:15:55.223] [INFO]  [checkout] [ctx_id: 24ab8] Order checkout initiated for Cart ID: 96569. Total: $248.00.
+[2026-11-11 08:15:55.223] [INFO]  [checkout] [ctx_id: 24ab8] Order #45740 processed successfully. Payment status: APPROVED.
+[2026-11-11 08:15:56.230] [INFO]  [inventory] [ctx_id: e9e4c] Item SKU-3091 reserved in inventory.
+[2026-11-11 08:15:56.230] [INFO]  [checkout] [ctx_id: e9e4c] Order checkout initiated for Cart ID: 97993. Total: $390.00.
+[2026-11-11 08:15:56.230] [INFO]  [checkout] [ctx_id: e9e4c] Order #45954 processed successfully. Payment status: APPROVED.
+[2026-11-11 08:15:57.684] [INFO]  [auth] [ctx_id: d3ebd] User 'guest_554' login attempt initiated from IP 192.168.1.128.
+[2026-11-11 08:15:57.684] [INFO]  [auth] [ctx_id: d3ebd] User 'guest_554' successfully authenticated.
+[2026-11-11 08:15:59.836] [INFO]  [cache_manager] [ctx_id: ------] Routine health check passed. Status: OK.
+[2026-11-11 08:16:01.573] [INFO]  [notification] [ctx_id: ------] Routine health check passed. Status: OK.
+[2026-11-11 08:16:02.292] [WARN]  [db_pool] [ctx_id: ------] Active connections fluctuate above normal range (42/50).
+[2026-11-11 08:16:05.127] [INFO]  [cache_manager] [ctx_id: ------] Routine health check passed. Status: OK.
+[2026-11-11 08:16:06.749] [INFO]  [inventory] [ctx_id: 19762] Item SKU-8849 reserved in inventory.
+[2026-11-11 08:16:06.749] [INFO]  [checkout] [ctx_id: 19762] Order checkout initiated for Cart ID: 94628. Total: $260.00.
+[2026-11-11 08:16:06.749] [INFO]  [checkout] [ctx_id: 19762] Order #46569 processed successfully. Payment status: APPROVED.
+[2026-11-11 08:16:09.583] [ERROR] [checkout] [ctx_id: a5412] Failed to process transaction for Cart ID: 96251. Mandatory field 'shipping_address' missing.
+[2026-11-11 08:16:10.872] [INFO]  [cache_manager] [ctx_id: ------] Routine health check passed. Status: OK.
+[2026-11-11 08:16:11.844] [WARN]  [payment_gateway] [ctx_id: ac9c4] Response latency from external provider 'Stripe' exceeded threshold (Time taken: 1670ms, Threshold: 1500ms).
+[2026-11-11 08:16:13.675] [INFO]  [notification] [ctx_id: ------] Routine health check passed. Status: OK.
+[2026-11-11 08:16:14.980] [INFO]  [auth] [ctx_id: aa1dc] User 'alice@example.com' login attempt initiated from IP 192.168.1.90.
+[2026-11-11 08:16:14.980] [INFO]  [auth] [ctx_id: aa1dc] User 'alice@example.com' successfully authenticated.
+[2026-11-11 08:16:15.317] [INFO]  [auth] [ctx_id: c1ce2] User 'johndoe@example.com' login attempt initiated from IP 192.168.1.253.
+[2026-11-11 08:16:15.317] [INFO]  [auth] [ctx_id: c1ce2] User 'johndoe@example.com' successfully authenticated.
+[2026-11-11 08:16:16.796] [INFO]  [cron_scheduler] [ctx_id: ------] Routine health check passed. Status: OK.
+[2026-11-11 08:16:17.213] [INFO]  [http_server] [ctx_id: ------] Routine health check passed. Status: OK.
+[2026-11-11 08:16:17.690] [ERROR] [checkout] [ctx_id: e6788] Failed to process transaction for Cart ID: 94964. Mandatory field 'shipping_address' missing.
+[2026-11-11 08:16:19.303] [INFO]  [cache_manager] [ctx_id: ------] Routine health check passed. Status: OK.
+[2026-11-11 08:16:20.087] [INFO]  [inventory] [ctx_id: 5d199] Item SKU-1024 reserved in inventory.
+[2026-11-11 08:16:20.087] [INFO]  [checkout] [ctx_id: 5d199] Order checkout initiated for Cart ID: 94146. Total: $158.00.
+[2026-11-11 08:16:20.087] [INFO]  [checkout] [ctx_id: 5d199] Order #44242 processed successfully. Payment status: APPROVED.
+[2026-11-11 08:16:20.475] [WARN]  [payment_gateway] [ctx_id: 194cd] Response latency from external provider 'Stripe' exceeded threshold (Time taken: 1694ms, Threshold: 1500ms).
+[2026-11-11 08:16:20.799] [INFO]  [cache_manager] [ctx_id: ------] Routine health check passed. Status: OK.
+[2026-11-11 08:16:23.429] [INFO]  [inventory] [ctx_id: 40775] Item SKU-4412 reserved in inventory.
+[2026-11-11 08:16:23.429] [INFO]  [checkout] [ctx_id: 40775] Order checkout initiated for Cart ID: 97551. Total: $182.00.
+[2026-11-11 08:16:23.429] [INFO]  [checkout] [ctx_id: 40775] Order #42177 processed successfully. Payment status: APPROVED.
+[2026-11-11 08:16:25.231] [ERROR] [checkout] [ctx_id: 96cef] Failed to process transaction for Cart ID: 93378. Mandatory field 'shipping_address' missing.
+[2026-11-11 08:16:26.582] [WARN]  [db_pool] [ctx_id: ------] Active connections fluctuate above normal range (36/50).
+[2026-11-11 08:16:29.485] [WARN]  [payment_gateway] [ctx_id: c46f4] Response latency from external provider 'Stripe' exceeded threshold (Time taken: 2299ms, Threshold: 1500ms).
+[2026-11-11 08:16:29.802] [WARN]  [payment_gateway] [ctx_id: b118a] Response latency from external provider 'Stripe' exceeded threshold (Time taken: 2534ms, Threshold: 1500ms).
+[2026-11-11 08:16:30.305] [INFO]  [auth] [ctx_id: 1b18b] User 'guest_554' login attempt initiated from IP 192.168.1.49.
+[2026-11-11 08:16:30.305] [INFO]  [auth] [ctx_id: 1b18b] User 'guest_554' successfully authenticated.
+[2026-11-11 08:16:30.831] [INFO]  [cron_scheduler] [ctx_id: ------] Routine health check passed. Status: OK.
+[2026-11-11 08:16:32.303] [INFO]  [notification] [ctx_id: ------] Routine health check passed. Status: OK.
+[2026-11-11 08:16:34.959] [ERROR] [db_client] [ctx_id: 1a6cc] Database transaction failed. Connection timeout occurred while writing to 'audit_logs' table.
+java.sql.SQLTransientConnectionException: connection timeout after 30000ms
+    at com.zaxxer.hikari.pool.ProxyConnection.leakTask(ProxyConnection.java:112)
+    at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:197)
+    at com.example.service.AuditLogger.writeLog(AuditLogger.java:45)
+[2026-11-11 08:16:37.396] [INFO]  [inventory] [ctx_id: 674c3] Item SKU-8849 reserved in inventory.
+[2026-11-11 08:16:37.396] [INFO]  [checkout] [ctx_id: 674c3] Order checkout initiated for Cart ID: 97788. Total: $118.00.
+[2026-11-11 08:16:37.396] [INFO]  [checkout] [ctx_id: 674c3] Order #41466 processed successfully. Payment status: APPROVED.
+[2026-11-11 08:16:39.057] [INFO]  [cron_scheduler] [ctx_id: ------] Routine health check passed. Status: OK.
+[2026-11-11 08:16:41.220] [INFO]  [notification] [ctx_id: ------] Routine health check passed. Status: OK.
+[2026-11-11 08:16:43.351] [INFO]  [inventory] [ctx_id: 7ef9a] Item SKU-9081 reserved in inventory.
+[2026-11-11 08:16:43.351] [INFO]  [checkout] [ctx_id: 7ef9a] Order checkout initiated for Cart ID: 94968. Total: $439.00.
+[2026-11-11 08:16:43.351] [INFO]  [checkout] [ctx_id: 7ef9a] Order #43282 processed successfully. Payment status: APPROVED.
+[2026-11-11 08:16:44.520] [INFO]  [notification] [ctx_id: ------] Routine health check passed. Status: OK.
+[2026-11-11 08:16:45.093] [INFO]  [http_server] [ctx_id: ------] Routine health check passed. Status: OK.
+[2026-11-11 08:16:46.112] [INFO]  [auth] [ctx_id: e733e] User 'johndoe@example.com' login attempt initiated from IP 192.168.1.136.
+[2026-11-11 08:16:46.112] [INFO]  [auth] [ctx_id: e733e] User 'johndoe@example.com' successfully authenticated.
+[2026-11-11 08:16:48.544] [INFO]  [auth] [ctx_id: 58707] User 'johndoe@example.com' login attempt initiated from IP 192.168.1.81.
+[2026-11-11 08:16:48.544] [INFO]  [auth] [ctx_id: 58707] User 'johndoe@example.com' successfully authenticated.
+[2026-11-11 08:16:50.338] [INFO]  [notification] [ctx_id: ------] Routine health check passed. Status: OK.
+[2026-11-11 08:16:52.167] [INFO]  [http_server] [ctx_id: ------] Routine health check passed. Status: OK.
+[2026-11-11 08:16:52.642] [ERROR] [checkout] [ctx_id: e7e43] Failed to process transaction for Cart ID: 97096. Mandatory field 'shipping_address' missing.
+[2026-11-11 08:16:53.928] [INFO]  [auth] [ctx_id: 5d62c] User 'charlie@example.com' login attempt initiated from IP 192.168.1.96.
+[2026-11-11 08:16:53.928] [INFO]  [auth] [ctx_id: 5d62c] User 'charlie@example.com' successfully authenticated.
+[2026-11-11 08:16:56.673] [INFO]  [auth] [ctx_id: 9b514] User 'guest_554' login attempt initiated from IP 192.168.1.135.
+[2026-11-11 08:16:56.673] [INFO]  [auth] [ctx_id: 9b514] User 'guest_554' successfully authenticated.
+[2026-11-11 08:16:57.149] [INFO]  [inventory] [ctx_id: cb61e] Item SKU-8849 reserved in inventory.
+[2026-11-11 08:16:57.149] [INFO]  [checkout] [ctx_id: cb61e] Order checkout initiated for Cart ID: 97017. Total: $140.00.
+[2026-11-11 08:16:57.149] [INFO]  [checkout] [ctx_id: cb61e] Order #44520 processed successfully. Payment status: APPROVED.
+[2026-11-11 08:16:59.398] [WARN]  [payment_gateway] [ctx_id: aacec] Response latency from external provider 'Stripe' exceeded threshold (Time taken: 2058ms, Threshold: 1500ms).
+[2026-11-11 08:17:00.037] [INFO]  [auth] [ctx_id: f2371] User 'guest_112' login attempt initiated from IP 192.168.1.25.
+[2026-11-11 08:17:00.037] [INFO]  [auth] [ctx_id: f2371] User 'guest_112' successfully authenticated.
+[2026-11-11 08:17:00.770] [INFO]  [auth] [ctx_id: 72826] User 'guest_112' login attempt initiated from IP 192.168.1.248.
+[2026-11-11 08:17:00.770] [INFO]  [auth] [ctx_id: 72826] User 'guest_112' successfully authenticated.
+[2026-11-11 08:17:03.582] [WARN]  [payment_gateway] [ctx_id: c9676] Response latency from external provider 'Stripe' exceeded threshold (Time taken: 2413ms, Threshold: 1500ms).
+[2026-11-11 08:17:06.070] [ERROR] [db_client] [ctx_id: a40ff] Database transaction failed. Connection timeout occurred while writing to 'audit_logs' table.
+java.sql.SQLTransientConnectionException: connection timeout after 30000ms
+    at com.zaxxer.hikari.pool.ProxyConnection.leakTask(ProxyConnection.java:112)
+    at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:197)
+    at com.example.service.AuditLogger.writeLog(AuditLogger.java:45)
+[2026-11-11 08:17:07.815] [INFO]  [inventory] [ctx_id: 8f114] Item SKU-4412 reserved in inventory.
+[2026-11-11 08:17:07.815] [INFO]  [checkout] [ctx_id: 8f114] Order checkout initiated for Cart ID: 95086. Total: $309.00.
+[2026-11-11 08:17:07.815] [INFO]  [checkout] [ctx_id: 8f114] Order #45835 processed successfully. Payment status: APPROVED.
+[2026-11-11 08:17:09.321] [INFO]  [auth] [ctx_id: 4230e] User 'bob@example.com' login attempt initiated from IP 192.168.1.192.
+[2026-11-11 08:17:09.321] [INFO]  [auth] [ctx_id: 4230e] User 'bob@example.com' successfully authenticated.
+[2026-11-11 08:17:10.798] [ERROR] [db_client] [ctx_id: 60a9b] Database transaction failed. Connection timeout occurred while writing to 'audit_logs' table.
+java.sql.SQLTransientConnectionException: connection timeout after 30000ms
+    at com.zaxxer.hikari.pool.ProxyConnection.leakTask(ProxyConnection.java:112)
+    at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:197)
+    at com.example.service.AuditLogger.writeLog(AuditLogger.java:45)
+[2026-11-11 08:17:12.538] [INFO]  [inventory] [ctx_id: db347] Item SKU-9081 reserved in inventory.
+[2026-11-11 08:17:12.538] [INFO]  [checkout] [ctx_id: db347] Order checkout initiated for Cart ID: 96165. Total: $92.00.
+[2026-11-11 08:17:12.538] [INFO]  [checkout] [ctx_id: db347] Order #43319 processed successfully. Payment status: APPROVED.
+[2026-11-11 08:17:14.364] [INFO]  [auth] [ctx_id: 4619b] User 'charlie@example.com' login attempt initiated from IP 192.168.1.247.
+[2026-11-11 08:17:14.364] [INFO]  [auth] [ctx_id: 4619b] User 'charlie@example.com' successfully authenticated.
+[2026-11-11 08:17:14.786] [INFO]  [auth] [ctx_id: bda6e] User 'admin' login attempt initiated from IP 192.168.1.116.
+[2026-11-11 08:17:14.786] [INFO]  [auth] [ctx_id: bda6e] User 'admin' successfully authenticated.
+[2026-11-11 08:17:15.551] [WARN]  [db_pool] [ctx_id: ------] Active connections fluctuate above normal range (38/50).
+[2026-11-11 08:17:16.240] [ERROR] [db_client] [ctx_id: 62012] Database transaction failed. Connection timeout occurred while writing to 'audit_logs' table.
+java.sql.SQLTransientConnectionException: connection timeout after 30000ms
+    at com.zaxxer.hikari.pool.ProxyConnection.leakTask(ProxyConnection.java:112)
+    at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:197)
+    at com.example.service.AuditLogger.writeLog(AuditLogger.java:45)
+[2026-11-11 08:17:16.715] [INFO]  [notification] [ctx_id: ------] Routine health check passed. Status: OK.
+[2026-11-11 08:17:17.535] [INFO]  [auth] [ctx_id: cdfc0] User 'johndoe@example.com' login attempt initiated from IP 192.168.1.170.
+[2026-11-11 08:17:17.535] [INFO]  [auth] [ctx_id: cdfc0] User 'johndoe@example.com' successfully authenticated.
+[2026-11-11 08:17:19.098] [INFO]  [notification] [ctx_id: ------] Routine health check passed. Status: OK.
+[2026-11-11 08:17:21.584] [INFO]  [cache_manager] [ctx_id: ------] Routine health check passed. Status: OK.
+[2026-11-11 08:17:22.257] [INFO]  [inventory] [ctx_id: 719c1] Item SKU-8849 reserved in inventory.
+[2026-11-11 08:17:22.257] [INFO]  [checkout] [ctx_id: 719c1] Order checkout initiated for Cart ID: 96982. Total: $268.00.
+[2026-11-11 08:17:22.257] [INFO]  [checkout] [ctx_id: 719c1] Order #40898 processed successfully. Payment status: APPROVED.
+[2026-11-11 08:17:24.534] [INFO]  [cache_manager] [ctx_id: ------] Routine health check passed. Status: OK.
+[2026-11-11 08:17:24.866] [ERROR] [checkout] [ctx_id: c4020] Failed to process transaction for Cart ID: 95487. Mandatory field 'shipping_address' missing.
+[2026-11-11 08:17:25.233] [INFO]  [inventory] [ctx_id: 23b6a] Item SKU-9081 reserved in inventory.
+[2026-11-11 08:17:25.233] [INFO]  [checkout] [ctx_id: 23b6a] Order checkout initiated for Cart ID: 97419. Total: $28.00.
+[2026-11-11 08:17:25.233] [INFO]  [checkout] [ctx_id: 23b6a] Order #41032 processed successfully. Payment status: APPROVED.
+[2026-11-11 08:17:25.612] [INFO]  [auth] [ctx_id: bda8a] User 'charlie@example.com' login attempt initiated from IP 192.168.1.177.
+[2026-11-11 08:17:25.612] [INFO]  [auth] [ctx_id: bda8a] User 'charlie@example.com' successfully authenticated.
+[2026-11-11 08:17:27.227] [INFO]  [inventory] [ctx_id: ada4d] Item SKU-3091 reserved in inventory.
+[2026-11-11 08:17:27.227] [INFO]  [checkout] [ctx_id: ada4d] Order checkout initiated for Cart ID: 95982. Total: $334.00.
+[2026-11-11 08:17:27.227] [INFO]  [checkout] [ctx_id: ada4d] Order #46782 processed successfully. Payment status: APPROVED.
+[2026-11-11 08:17:29.849] [INFO]  [auth] [ctx_id: a9e09] User 'guest_554' login attempt initiated from IP 192.168.1.219.
+[2026-11-11 08:17:29.849] [INFO]  [auth] [ctx_id: a9e09] User 'guest_554' successfully authenticated.
+[2026-11-11 08:17:32.652] [WARN]  [payment_gateway] [ctx_id: 5b972] Response latency from external provider 'Stripe' exceeded threshold (Time taken: 1547ms, Threshold: 1500ms).
+[2026-11-11 08:17:33.554] [INFO]  [cron_scheduler] [ctx_id: ------] Routine health check passed. Status: OK.
+[2026-11-11 08:17:34.737] [INFO]  [cron_scheduler] [ctx_id: ------] Routine health check passed. Status: OK.
+[2026-11-11 08:17:36.256] [INFO]  [auth] [ctx_id: b0004] User 'admin' login attempt initiated from IP 192.168.1.43.
+[2026-11-11 08:17:36.256] [INFO]  [auth] [ctx_id: b0004] User 'admin' successfully authenticated.
+[2026-11-11 08:17:36.805] [WARN]  [db_pool] [ctx_id: ------] Active connections fluctuate above normal range (38/50).
+[2026-11-11 08:17:37.533] [INFO]  [cron_scheduler] [ctx_id: ------] Routine health check passed. Status: OK.
+[2026-11-11 08:17:38.987] [INFO]  [cron_scheduler] [ctx_id: ------] Routine health check passed. Status: OK.
+[2026-11-11 08:17:40.176] [INFO]  [cache_manager] [ctx_id: ------] Routine health check passed. Status: OK.
+[2026-11-11 08:17:41.605] [INFO]  [inventory] [ctx_id: 67dd3] Item SKU-1024 reserved in inventory.
+[2026-11-11 08:17:41.605] [INFO]  [checkout] [ctx_id: 67dd3] Order checkout initiated for Cart ID: 98010. Total: $456.00.
+[2026-11-11 08:17:41.605] [INFO]  [checkout] [ctx_id: 67dd3] Order #46622 processed successfully. Payment status: APPROVED.
+[2026-11-11 08:17:43.237] [INFO]  [inventory] [ctx_id: 5a512] Item SKU-8849 reserved in inventory.
+[2026-11-11 08:17:43.237] [INFO]  [checkout] [ctx_id: 5a512] Order checkout initiated for Cart ID: 92252. Total: $199.00.
+[2026-11-11 08:17:43.237] [INFO]  [checkout] [ctx_id: 5a512] Order #43402 processed successfully. Payment status: APPROVED.
+[2026-11-11 08:17:45.462] [INFO]  [inventory] [ctx_id: 3511a] Item SKU-9081 reserved in inventory.
+[2026-11-11 08:17:45.462] [INFO]  [checkout] [ctx_id: 3511a] Order checkout initiated for Cart ID: 94528. Total: $341.00.
+[2026-11-11 08:17:45.462] [INFO]  [checkout] [ctx_id: 3511a] Order #49032 processed successfully. Payment status: APPROVED.
+[2026-11-11 08:17:45.732] [INFO]  [auth] [ctx_id: f38b8] User 'emma@example.com' login attempt initiated from IP 192.168.1.137.
+[2026-11-11 08:17:45.732] [INFO]  [auth] [ctx_id: f38b8] User 'emma@example.com' successfully authenticated.
+[2026-11-11 08:17:46.134] [INFO]  [auth] [ctx_id: 76665] User 'johndoe@example.com' login attempt initiated from IP 192.168.1.243.
+[2026-11-11 08:17:46.134] [INFO]  [auth] [ctx_id: 76665] User 'johndoe@example.com' successfully authenticated.
+[2026-11-11 08:17:47.041] [INFO]  [notification] [ctx_id: ------] Routine health check passed. Status: OK.
+[2026-11-11 08:17:49.400] [ERROR] [checkout] [ctx_id: c64d6] Failed to process transaction for Cart ID: 98200. Mandatory field 'shipping_address' missing.
+[2026-11-11 08:17:50.976] [INFO]  [inventory] [ctx_id: 35181] Item SKU-1024 reserved in inventory.
+[2026-11-11 08:17:50.976] [INFO]  [checkout] [ctx_id: 35181] Order checkout initiated for Cart ID: 95851. Total: $164.00.
+[2026-11-11 08:17:50.976] [INFO]  [checkout] [ctx_id: 35181] Order #48327 processed successfully. Payment status: APPROVED.
+[2026-11-11 08:17:52.151] [WARN]  [payment_gateway] [ctx_id: 712e6] Response latency from external provider 'Stripe' exceeded threshold (Time taken: 2485ms, Threshold: 1500ms).
+[2026-11-11 08:17:53.366] [INFO]  [auth] [ctx_id: a8506] User 'alice@example.com' login attempt initiated from IP 192.168.1.147.
+[2026-11-11 08:17:53.366] [INFO]  [auth] [ctx_id: a8506] User 'alice@example.com' successfully authenticated.
+[2026-11-11 08:17:55.233] [WARN]  [payment_gateway] [ctx_id: 97caa] Response latency from external provider 'Stripe' exceeded threshold (Time taken: 2135ms, Threshold: 1500ms).
+[2026-11-11 08:17:57.451] [INFO]  [inventory] [ctx_id: e4f93] Item SKU-4412 reserved in inventory.
+[2026-11-11 08:17:57.451] [INFO]  [checkout] [ctx_id: e4f93] Order checkout initiated for Cart ID: 90290. Total: $166.00.
+[2026-11-11 08:17:57.451] [INFO]  [checkout] [ctx_id: e4f93] Order #44405 processed successfully. Payment status: APPROVED.
+[2026-11-11 08:18:00.330] [INFO]  [http_server] [ctx_id: ------] Routine health check passed. Status: OK.
+[2026-11-11 08:18:03.251] [ERROR] [db_client] [ctx_id: 4b081] Database transaction failed. Connection timeout occurred while writing to 'audit_logs' table.
+java.sql.SQLTransientConnectionException: connection timeout after 30000ms
+    at com.zaxxer.hikari.pool.ProxyConnection.leakTask(ProxyConnection.java:112)
+    at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:197)
+    at com.example.service.AuditLogger.writeLog(AuditLogger.java:45)
+[2026-11-11 08:18:05.483] [INFO]  [auth] [ctx_id: d3384] User 'bob@example.com' login attempt initiated from IP 192.168.1.254.
+[2026-11-11 08:18:05.483] [INFO]  [auth] [ctx_id: d3384] User 'bob@example.com' successfully authenticated.
+[2026-11-11 08:18:06.621] [INFO]  [inventory] [ctx_id: abf1d] Item SKU-4412 reserved in inventory.
+[2026-11-11 08:18:06.621] [INFO]  [checkout] [ctx_id: abf1d] Order checkout initiated for Cart ID: 91003. Total: $328.00.
+[2026-11-11 08:18:06.621] [INFO]  [checkout] [ctx_id: abf1d] Order #40194 processed successfully. Payment status: APPROVED.
+[2026-11-11 08:18:07.201] [INFO]  [inventory] [ctx_id: 452be] Item SKU-3091 reserved in inventory.
+[2026-11-11 08:18:07.201] [INFO]  [checkout] [ctx_id: 452be] Order checkout initiated for Cart ID: 91461. Total: $201.00.
+[2026-11-11 08:18:07.201] [INFO]  [checkout] [ctx_id: 452be] Order #45615 processed successfully. Payment status: APPROVED.
+[2026-11-11 08:18:10.086] [INFO]  [auth] [ctx_id: ed68e] User 'admin' login attempt initiated from IP 192.168.1.124.
+[2026-11-11 08:18:10.086] [INFO]  [auth] [ctx_id: ed68e] User 'admin' successfully authenticated.
+[2026-11-11 08:18:11.045] [INFO]  [inventory] [ctx_id: 2912d] Item SKU-3091 reserved in inventory.
+[2026-11-11 08:18:11.045] [INFO]  [checkout] [ctx_id: 2912d] Order checkout initiated for Cart ID: 90941. Total: $48.00.
+[2026-11-11 08:18:11.045] [INFO]  [checkout] [ctx_id: 2912d] Order #42059 processed successfully. Payment status: APPROVED.
+[2026-11-11 08:18:12.830] [INFO]  [inventory] [ctx_id: 5f8bd] Item SKU-1024 reserved in inventory.
+[2026-11-11 08:18:12.830] [INFO]  [checkout] [ctx_id: 5f8bd] Order checkout initiated for Cart ID: 99510. Total: $20.00.
+[2026-11-11 08:18:12.830] [INFO]  [checkout] [ctx_id: 5f8bd] Order #40029 processed successfully. Payment status: APPROVED.
+[2026-11-11 08:18:14.021] [INFO]  [cache_manager] [ctx_id: ------] Routine health check passed. Status: OK.
+[2026-11-11 08:18:16.836] [WARN]  [payment_gateway] [ctx_id: c885f] Response latency from external provider 'Stripe' exceeded threshold (Time taken: 1706ms, Threshold: 1500ms).
+[2026-11-11 08:18:17.919] [INFO]  [inventory] [ctx_id: 74d77] Item SKU-1024 reserved in inventory.
+[2026-11-11 08:18:17.919] [INFO]  [checkout] [ctx_id: 74d77] Order checkout initiated for Cart ID: 94613. Total: $73.00.
+[2026-11-11 08:18:17.919] [INFO]  [checkout] [ctx_id: 74d77] Order #42061 processed successfully. Payment status: APPROVED.
+[2026-11-11 08:18:19.555] [INFO]  [http_server] [ctx_id: ------] Routine health check passed. Status: OK.
+[2026-11-11 08:18:20.752] [WARN]  [db_pool] [ctx_id: ------] Active connections fluctuate above normal range (46/50).
+[2026-11-11 08:18:21.081] [INFO]  [auth] [ctx_id: 227f8] User 'guest_554' login attempt initiated from IP 192.168.1.152.
+[2026-11-11 08:18:21.081] [INFO]  [auth] [ctx_id: 227f8] User 'guest_554' successfully authenticated.
+[2026-11-11 08:18:21.834] [WARN]  [payment_gateway] [ctx_id: bec54] Response latency from external provider 'Stripe' exceeded threshold (Time taken: 1889ms, Threshold: 1500ms).
+[2026-11-11 08:18:24.309] [WARN]  [payment_gateway] [ctx_id: 6c73f] Response latency from external provider 'Stripe' exceeded threshold (Time taken: 1898ms, Threshold: 1500ms).
+[2026-11-11 08:18:27.265] [INFO]  [inventory] [ctx_id: bfb9c] Item SKU-4412 reserved in inventory.
+[2026-11-11 08:18:27.265] [INFO]  [checkout] [ctx_id: bfb9c] Order checkout initiated for Cart ID: 94568. Total: $313.00.
+[2026-11-11 08:18:27.265] [INFO]  [checkout] [ctx_id: bfb9c] Order #43228 processed successfully. Payment status: APPROVED.
+[2026-11-11 08:18:29.730] [ERROR] [checkout] [ctx_id: 3c187] Failed to process transaction for Cart ID: 98573. Mandatory field 'shipping_address' missing.
+[2026-11-11 08:18:31.412] [WARN]  [payment_gateway] [ctx_id: 2c392] Response latency from external provider 'Stripe' exceeded threshold (Time taken: 2559ms, Threshold: 1500ms).
+[2026-11-11 08:18:31.657] [INFO]  [auth] [ctx_id: 68850] User 'guest_112' login attempt initiated from IP 192.168.1.109.
+[2026-11-11 08:18:31.657] [INFO]  [auth] [ctx_id: 68850] User 'guest_112' successfully authenticated.
+[2026-11-11 08:18:34.209] [INFO]  [notification] [ctx_id: ------] Routine health check passed. Status: OK.
+[2026-11-11 08:18:35.482] [INFO]  [inventory] [ctx_id: d41fa] Item SKU-8849 reserved in inventory.
+[2026-11-11 08:18:35.482] [INFO]  [checkout] [ctx_id: d41fa] Order checkout initiated for Cart ID: 92486. Total: $178.00.
+[2026-11-11 08:18:35.482] [INFO]  [checkout] [ctx_id: d41fa] Order #44978 processed successfully. Payment status: APPROVED.
+[2026-11-11 08:18:37.916] [INFO]  [http_server] [ctx_id: ------] Routine health check passed. Status: OK.
+[2026-11-11 08:18:39.112] [INFO]  [cache_manager] [ctx_id: ------] Routine health check passed. Status: OK.
+[2026-11-11 08:18:41.508] [INFO]  [inventory] [ctx_id: 34987] Item SKU-9081 reserved in inventory.
+[2026-11-11 08:18:41.508] [INFO]  [checkout] [ctx_id: 34987] Order checkout initiated for Cart ID: 92555. Total: $179.00.
+[2026-11-11 08:18:41.508] [INFO]  [checkout] [ctx_id: 34987] Order #45499 processed successfully. Payment status: APPROVED.
+[2026-11-11 08:18:42.942] [INFO]  [auth] [ctx_id: 351f2] User 'bob@example.com' login attempt initiated from IP 192.168.1.160.
+[2026-11-11 08:18:42.942] [INFO]  [auth] [ctx_id: 351f2] User 'bob@example.com' successfully authenticated.
+[2026-11-11 08:18:45.543] [WARN]  [db_pool] [ctx_id: ------] Active connections fluctuate above normal range (37/50).
+[2026-11-11 08:18:47.018] [INFO]  [auth] [ctx_id: cbf51] User 'guest_112' login attempt initiated from IP 192.168.1.62.
+[2026-11-11 08:18:47.018] [INFO]  [auth] [ctx_id: cbf51] User 'guest_112' successfully authenticated.
+[2026-11-11 08:18:48.357] [WARN]  [payment_gateway] [ctx_id: 5e137] Response latency from external provider 'Stripe' exceeded threshold (Time taken: 2254ms, Threshold: 1500ms).
+[2026-11-11 08:18:50.911] [INFO]  [notification] [ctx_id: ------] Routine health check passed. Status: OK.
+[2026-11-11 08:18:53.161] [ERROR] [checkout] [ctx_id: c423e] Failed to process transaction for Cart ID: 93474. Mandatory field 'shipping_address' missing.
+[2026-11-11 08:18:54.303] [WARN]  [db_pool] [ctx_id: ------] Active connections fluctuate above normal range (39/50).
+[2026-11-11 08:18:56.461] [INFO]  [inventory] [ctx_id: c9175] Item SKU-1024 reserved in inventory.
+[2026-11-11 08:18:56.461] [INFO]  [checkout] [ctx_id: c9175] Order checkout initiated for Cart ID: 94734. Total: $149.00.
+[2026-11-11 08:18:56.461] [INFO]  [checkout] [ctx_id: c9175] Order #49642 processed successfully. Payment status: APPROVED.
