@@ -1,4 +1,4 @@
-import boto3
+import boto3 # pyright: ignore[reportMissingImports] 
 
 s3 = boto3.client('s3')   #creating a client for s3 so that it can call api
 response = s3.list_buckets()
